@@ -1,0 +1,12 @@
+[submodule "collar-core/lib/openzeppelin-contracts"]
+	path = collar-core/lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "collar-core/lib/swap-router-contracts"]
+	path = collar-core/lib/swap-router-contracts
+	url = https://github.com/Uniswap/swap-router-contracts
+[submodule "collar-core/lib/v3-core"]
+	path = collar-core/lib/v3-core
+	url = https://github.com/Uniswap/v3-core
+[submodule "collar-core/lib/v3-periphery"]
+	path = collar-core/lib/v3-periphery
+	url = https://github.com/Uniswap/v3-periphery
