@@ -2,7 +2,6 @@
 start-date = "2024-11-19"
 end-date = "2024-11-25"
 total-time = "25h"
-total-rewards = "36.56 USDC"
 author = "0xSolus"
 +++
 
@@ -11,13 +10,13 @@ author = "0xSolus"
 
 # Findings Summary
 
-| ID     | Title                                                                              | Severity | Status       | Reward     |
-| ------ | ---------------------------------------------------------------------------------- | -------- | ------------ | ---------- |
-| [M-01] | Lender can grief the protocol, deleting all Lender Positions in Factory            | Medium   | Valid        | 36.56 USDC |
-| [M-02] | Off-by-One Error in For Loop Preventing Last Element Access                        | Medium   | Invalid      | 0     USDC |
-| [M-03] | State Variable Shadowing in `changeOwner()` Function                               | Medium   | Invalid      | 0     USDC |
-| [M-04] | Proxy for implementation contracts is used, but there is no methods to change them | Medium   | Invalid      | 0     USDC |
-| [M-05] | Incorrect Borrower/Lender Identification in tokenURI Logic                         | Medium   | Invalid      | 0     USDC |
+| ID     | Title                                                                              | Severity 
+| ------ | ---------------------------------------------------------------------------------- | -------- 
+| [M-01] | Lender can grief the protocol, deleting all Lender Positions in Factory            | Medium   
+| [M-02] | Off-by-One Error in For Loop Preventing Last Element Access                        | Medium   
+| [M-03] | State Variable Shadowing in `changeOwner()` Function                               | Medium   
+| [M-04] | Proxy for implementation contracts is used, but there is no methods to change them | Medium   
+| [M-05] | Incorrect Borrower/Lender Identification in tokenURI Logic                         | Medium   
 
 
 # Detailed Findings

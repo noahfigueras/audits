@@ -2,7 +2,6 @@
 start-date = "2024-10-7"
 end-date = "2024-10-11"
 total-time = "15h"
-total-rewards = "442.16USDC"
 author = "0xSolus"
 +++
 
@@ -11,9 +10,9 @@ author = "0xSolus"
 
 # Findings Summary
 
-| ID     | Title                                                                    | Severity | Status       | Reward      |
-| ------ | ------------------------------------------------------------------------ | -------- | ------------ | ----------- |
-| [H-01] | Missing Token Transfer During Withdrawal in OperatorStakingPool.         | High     | Valid        | 442.16 USDC |
+| ID     | Title                                                                    | Severity 
+| ------ | ------------------------------------------------------------------------ | -------- 
+| [H-01] | Missing Token Transfer During Withdrawal in OperatorStakingPool.         | High     
 
 # Detailed Findings
 

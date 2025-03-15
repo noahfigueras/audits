@@ -2,7 +2,6 @@
 start-date = "2024-10-29"
 end-date = "2024-11-2"
 total-time = "16h"
-total-rewards = "0 USDC"
 author = "0xSolus"
 +++
 
@@ -11,12 +10,12 @@ author = "0xSolus"
 
 # Findings Summary
 
-| ID     | Title                                                            | Severity | Status       | Reward     |
-| ------ | -----------------------------------------------------------------| -------- | ------------ | ---------- |
-| [M-01] | Use call instead of transfer for withdrawals                     | Medium   | Invalid      | 0 USDC     |
-| [M-02] | Archives profile should only be allowed to restore their profile | Medium   | Invalid      | 0 USDC     |
-| [M-03] | Inconsistent logic for `targetExistsAndAllowedForId()`           | Medium   | Invalid      | 0 USDC     |
-| [M-04] | Arbitrary code execution                                         | Medium   | Invalid      | 0 USDC     |
+| ID     | Title                                                            | Severity 
+| ------ | -----------------------------------------------------------------| -------- 
+| [M-01] | Use call instead of transfer for withdrawals                     | Medium   
+| [M-02] | Archives profile should only be allowed to restore their profile | Medium   
+| [M-03] | Inconsistent logic for `targetExistsAndAllowedForId()`           | Medium   
+| [M-04] | Arbitrary code execution                                         | Medium   
 
 
 # Detailed Findings

@@ -2,7 +2,6 @@
 start-date = "2024-10-26"
 end-date = "2024-10-26"
 total-time = "5h"
-total-rewards = "113$"
 author = "0xSolus"
 +++
 
@@ -11,12 +10,12 @@ author = "0xSolus"
 
 # Findings Summary
 
-| ID     | Title                                                                    | Severity | Status       | Reward |
-| ------ | ------------------------------------------------------------------------ | -------- | ------------ | ------ |
-| [H-01] | Users can only execute one claim for distribution.                       | High     | Valid        | 113$     |
-| [H-02] | Rewards distributed are not tracked causing insolvency in the contract.  | High     | Invalid      | 0$     |
-| [M-01] | Protocol Fee can be set up to get most of the createDistribution amount. | Medium   | Invalid      | 0$     | 
-| [L-01] | Incorrect parameter for `MAX_DISTRIBUTION_BLOCKS`                        | Medium   | Invalid      | 0$    | 
+| ID     | Title                                                                    | Severity 
+| ------ | ------------------------------------------------------------------------ | -------- 
+| [H-01] | Users can only execute one claim for distribution.                       | High     
+| [H-02] | Rewards distributed are not tracked causing insolvency in the contract.  | High     
+| [M-01] | Protocol Fee can be set up to get most of the createDistribution amount. | Medium   
+| [L-01] | Incorrect parameter for `MAX_DISTRIBUTION_BLOCKS`                        | Medium   
 
 # Detailed Findings
 

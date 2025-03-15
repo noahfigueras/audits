@@ -2,7 +2,6 @@
 start-date = "2024-9-12"
 end-date = "2024-9-15"
 total-time = "16h"
-total-rewards = "23USDC"
 author = "0xSolus"
 +++
 
@@ -12,14 +11,14 @@ author = "0xSolus"
 
 # Findings Summary
 
-| ID     | Title                                                                                      | Severity | Status       | Reward |
-| ------ | ------------------------------------------------------------------------------------------ | -------- | ------------ | ------ |
-| [H-01] | CGDAIncentives::claim() can be drained due to lack of claim validation                     | High     | Invalid      | 0$     |
-| [H-02] | Any user that has access to createBoost can drain funds from any budget or any incentives  | High     | Invalid      | 0$     |
-| [M-01] | ClaimIncentives() gets locked if boost is created without a validator.                     | Medium   | Invalid      | 0$     | 
-| [M-02] | Some Incentives methods with onlyOwner access are not callable                             | Medium   | Valid        | 23USDC | 
-| [M-03] | ERC1155Incentive::initialize() is calling `_initializeOwner()` twice                       | Medium   | Invalid      | 0$     | 
-| [M-04] | SignerValidator::validate() doesn't implement a nonce value                                | Medium   | Invalid      | 0$     |
+| ID     | Title                                                                                      | Severity 
+| ------ | ------------------------------------------------------------------------------------------ | -------- 
+| [H-01] | CGDAIncentives::claim() can be drained due to lack of claim validation                     | High     
+| [H-02] | Any user that has access to createBoost can drain funds from any budget or any incentives  | High     
+| [M-01] | ClaimIncentives() gets locked if boost is created without a validator.                     | Medium    
+| [M-02] | Some Incentives methods with onlyOwner access are not callable                             | Medium    
+| [M-03] | ERC1155Incentive::initialize() is calling `_initializeOwner()` twice                       | Medium    
+| [M-04] | SignerValidator::validate() doesn't implement a nonce value                                | Medium   
 
 # Detailed Findings
 
